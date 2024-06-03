@@ -48,9 +48,9 @@
 				sql += "name='" + sname + "',";
 				sql += "num='" + snumber + "',";
 				sql += "birth='" + syear + "',";
-				sql += "password='" + spassword + "',";
-				sql += "email='" + semail + "',";
-				sql += "where id='" + sid + "',";
+				sql += "passwd='" + spassword + "',";
+				sql += "email='" + semail + "'";
+				sql += "where id='" + sid + "'";
 				stmt = conn.createStatement();
 				stmt.executeUpdate(sql);
 				out.print("레코드 수정 성공");

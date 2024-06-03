@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+</style>
 </head>
 <body>
 	<%-- <%@ include file = "dbconn.jsp" %> --%>
@@ -33,9 +35,12 @@
 		}
 		
 	%>
-	   <h3>학생 정보 <%= headline %></h3>
-	   <form name="boardform" method="post" action="process.jsp">
+			
+	   <form id="myForm" name="boardform" method="post" action="process.jsp">
 	   	<table>
+	   		<tr>
+				<th colspan="2" style="background: yellow">학생정보 <%= headline %></th>
+			</tr>
 	   		<tr>
 	   			<td class = "td_title">학생 아이디: </td>
 	   			<td class="td_input">
@@ -102,7 +107,7 @@
 	   					<input type = "submit" value="등록" name="separation">
 	   				<%} else { %>
 	   					<input type = "submit" value="수정" name="separation">
-	   					<input type = "submit" value="삭제" name="separation" id="delete" onClick="check()">
+	   					<input type = "button" value="삭제" name="separation" id="delete" onClick="check()">
 	   				<% } %>
 	   				<input type = "reset" value="취소">
 	   				<input type = "button" value="목록보기" onClick="location.href='show.jsp'">

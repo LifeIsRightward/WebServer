@@ -54,6 +54,6 @@
 		%>
 	</table>
 	<br><br>
-	<input type="button" value="등록" onClick="location.href=edit.jsp">
+	<input type="button" value="등록" onClick="location.href='edit.jsp'">
 </body>
 </html>

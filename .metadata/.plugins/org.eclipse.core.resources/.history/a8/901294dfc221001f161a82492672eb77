@@ -1,0 +1,9 @@
+function check(){
+	const isDelete = confirm("정말로 삭제하시겠습니까?");
+	const form = document.getElementById('Delete');
+	console.log(isDelete);
+	
+	if(isDelete){
+		form.submit(); 
+	}
+}
