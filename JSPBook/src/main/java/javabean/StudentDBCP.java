@@ -13,7 +13,6 @@ public class StudentDBCP {
 	private PreparedStatement pstmt = null;
 	private DataSource ds = null;
 	
-	
 	//method
 	public StudentDBCP() {
 		try {

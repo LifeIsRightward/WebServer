@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet" href="./css/index.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>문화 여행</h1>
+        <nav>
+            <ul>
+                <li><a href="#">프로필</a></li>
+                <li><a href="#">나라 소개</a></li>
+                <li><a href="#">여행 성향 분석</a></li>
+                <li><a href="#">여행 후기 게시판</a></li>
+            </ul>
+        </nav>
+    </header>
+
+	<div class="welcome-text">
+		<h1>어서오세요! <br>당신이 방문할 국가의 정보와 <br><br> 후기를 확인해보세요!</h1>
+	</div>
+	 
+    <main>
+	    
+        <section id="introduce">
+            <h2>사이트 소개</h2>
+         </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 문화 여행 웹사이트</p>
+    </footer>
+</body>
+</html>
+
+
