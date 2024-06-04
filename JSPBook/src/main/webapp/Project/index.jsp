@@ -22,19 +22,42 @@
             </ul>
         </nav>
     </header>
-
-	<div class="section" id="welcome-text">
+    
+    <div class="section" id="welcome-text">
 		<h1>어서오세요! <br>당신이 방문할 국가의 정보와<br>후기를 확인해보세요!</h1>
 	</div>
-	<div class="section" id="introduce">
-         <h2>사이트 소개</h2>
+    
+	
+		<div class="section odd" id="section1">
+         	<div class="image-holder">
+      			<img src="assets/trip1.jpg" alt="[introduce]">
+    		</div>
+    		<div class="text-holder">
+      			<h2>사이트 소개</h2>
+      			<p>[저희 사이트는 ~~]</p>
+    		</div>
+    	</div>
+    <div class="section even" id="section2">
+        <div class="image-holder">
+      		<img src="assets/trip2.jpg" alt="[section2]">
+    	</div>
+    	<div class="text-holder">
+      		<h2>사이트 소개</h2>
+      		<p>[국가의 소재별 문화와 특징을 확인해보세요!]</p>
+    	</div>
     </div>
-    <div class="section" id="section2">
-         <h2>section2</h2>
+    <div class="section odd" id="section3">
+        <div class="image-holder">
+      		<img src="assets/trip3.jpg" alt="[section3]">
+    	</div>
+    	<div class="text-holder">
+      		<h2>사이트 소개</h2>
+      		<p>[자신의 여행 성향을 판단해보세요!]</p>
+    	</div>
     </div>
-    <div class="section" id="section3">
-         <h2>section3</h2>
-    </div>
+
+	
+	
    
     <footer>
     	<div>
