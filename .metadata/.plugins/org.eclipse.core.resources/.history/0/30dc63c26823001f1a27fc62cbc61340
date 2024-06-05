@@ -20,7 +20,7 @@
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 		
-		String sql = "select * from member where id = ? and password = ?";
+		String sql = "select * from member where id = ? and pw = ?";
 		
 		try{
 			// pstmt »ý¼º

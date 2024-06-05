@@ -14,7 +14,7 @@
 		request.setCharacterEncoding("UTF-8");
 	
 		String id = request.getParameter("id");
-		String pw = request.getParameter("password");
+		String pw = request.getParameter("pw");
 	
 		Connection connection = null;
 		PreparedStatement pstmt = null;

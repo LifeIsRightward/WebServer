@@ -14,13 +14,13 @@
 		request.setCharacterEncoding("UTF-8");
 	
 		String id = request.getParameter("id");
-		String pw = request.getParameter("password");
+		String pw = request.getParameter("pw");
 	
 		Connection connection = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 		
-		String sql = "select * from member where id = ? and password = ?";
+		String sql = "select * from member where id = ? and pw = ?";
 		
 		try{
 			// pstmt »ý¼º
