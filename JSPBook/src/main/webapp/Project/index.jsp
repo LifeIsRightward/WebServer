@@ -18,7 +18,6 @@
                 <li><a href="#">여행 성향 분석</a></li>
                 <li><a href="#">여행 후기 게시판</a></li>
                 <li><a href="#">프로필</a></li>
-                <li><a href="#">로그인</a></li>
             </ul>
         </nav>
     </header>

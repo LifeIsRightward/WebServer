@@ -1,0 +1,86 @@
+@charset "EUC-KR";
+
+body {
+	font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.signup-container {
+	background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 20%;
+    height: 30%;
+}
+
+.signup-container h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.signup-container label {
+	display: block;
+    margin-bottom: 5px;
+}
+
+.signup-container input[type="text"], 
+.signup-container input[type="password"], 
+.signup-container input[type="email"] {
+	width: 95%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.signup-container button {
+	width: 98%;
+    padding: 10px;
+    margin-top: 5%;
+  	background-color: #007BFF;
+	border: none;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.signup-container button:hover {
+	background-color: #0056b3;
+}
+
+#username {
+	
+}
+
+#password {
+	
+}
+
+#email {
+	
+}
+
+.signup-container .login-link {
+	display: block;
+	text-align: center;
+	margin-top: 3%;
+}
+
+.signup-container .login-link a {
+	color: #007BFF;
+	text-decoration: none;
+}
+
+.signup-container .login-link a:hover {
+	text-decoration: underline;
+}
+
+.login-link {
+	margin-top: 3%;
+}
