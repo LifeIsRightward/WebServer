@@ -34,7 +34,7 @@
 		    out.println("alert('회원가입 성공!');");
 		    out.println("location.href='login.jsp';");
 		    out.println("</script>");
-			//response.sendRedirect("login.jsp");
+			response.sendRedirect("login.jsp");
 		}catch(SQLException ex){
 			out.println("레코드 삽입이 실패했다. <br>");
 			out.println("SQLException: " + ex.getMessage());
