@@ -54,7 +54,7 @@
 				stmt = conn.createStatement();
 				stmt.executeUpdate(sql);
 				out.print("레코드 수정 성공");
-				response.sendRedirect("show.jsp");
+				response.sendRedirect("adminshow.jsp");
 			}catch(SQLException ex){
 				out.println("레코드 수정 실패");
 				out.println("SQLException: " + ex.getMessage());
@@ -68,7 +68,7 @@
 				stmt = conn.createStatement();
 				stmt.executeUpdate(sql);
 				out.print("레코드 삭제 성공");
-				response.sendRedirect("show.jsp");
+				response.sendRedirect("adminshow.jsp");
 			}catch(SQLException ex){
 				out.println("레코드 삭제 실패");
 				out.println("SQLException: " + ex.getMessage());
