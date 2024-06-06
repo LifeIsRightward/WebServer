@@ -38,7 +38,7 @@
             <ul>
                 <li><a href="#">나라 소개</a></li>
                 <li><a href="#">여행 성향 분석</a></li>
-                <li><a href="#">여행 후기 게시판</a></li>
+                <li><a href="tripcommunity.jsp?id=<%=uid%>">여행 후기 게시판</a></li>
                 <li><a href="profile.jsp?id=<%=uid%>">프로필</a></li>
             </ul>
         </nav>

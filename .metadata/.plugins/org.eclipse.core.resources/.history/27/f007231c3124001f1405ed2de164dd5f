@@ -1,0 +1,11 @@
+package javabean;
+
+public class board {
+	private int num;
+	private String writer;
+	private String title;
+	private String content;
+	private String ipaddr;
+	private int hitcount;
+	private String created;
+}
