@@ -36,7 +36,7 @@
 				String name = rs.getString("name");
 				session.setAttribute("user_id", id);
 				session.setAttribute("user_name", name);
-				response.sendRedirect("index.jsp"); // 페이지이동
+				response.sendRedirect("index.jsp?id="+id); // 페이지이동
 				
 			} else{ // 로그인 실패
 				out.println("<script type='text/javascript'>");

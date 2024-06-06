@@ -1,0 +1,10 @@
+package javabean;
+
+public class member {
+	private String id;
+	private String password;
+	private String email;
+	private String name;
+	private String age;
+	private String sex;
+}

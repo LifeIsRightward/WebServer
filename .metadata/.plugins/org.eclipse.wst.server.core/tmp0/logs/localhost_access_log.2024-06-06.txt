@@ -134,3 +134,16 @@
 0:0:0:0:0:0:0:1 - - [06/Jun/2024:03:24:36 +0900] "POST /JSPBook/Project/loginprocess.jsp HTTP/1.1" 200 249
 0:0:0:0:0:0:0:1 - - [06/Jun/2024:03:24:40 +0900] "POST /JSPBook/Project/loginprocess.jsp HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [06/Jun/2024:03:24:40 +0900] "GET /JSPBook/Project/index.jsp HTTP/1.1" 200 1981
+127.0.0.1 - - [06/Jun/2024:23:35:32 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:23:35:33 +0900] "GET /JSPBook/Project/loginprocess.jsp HTTP/1.1" 200 249
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:23:35:34 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:23:35:38 +0900] "GET /JSPBook/Project/login.jsp HTTP/1.1" 200 752
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:23:35:38 +0900] "GET /JSPBook/Project/css/login.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:23:36:23 +0900] "POST /JSPBook/Project/loginprocess.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:23:36:23 +0900] "GET /JSPBook/Project/index.jsp HTTP/1.1" 200 1981
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:23:36:23 +0900] "GET /JSPBook/Project/js/index.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:23:36:23 +0900] "GET /JSPBook/Project/css/index.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:23:36:23 +0900] "GET /JSPBook/Project/assets/trip1.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:23:36:23 +0900] "GET /JSPBook/Project/assets/trip2.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:23:36:23 +0900] "GET /JSPBook/Project/assets/trip3.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:23:36:23 +0900] "GET /JSPBook/Project/assets/background.jpg HTTP/1.1" 304 -

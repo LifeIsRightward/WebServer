@@ -12,3 +12,10 @@
 1717513930238	Delete element
 1717514110184	Delete element
 1717515096076	Rename resource 'wallpaperbetter.jpg'
+1717684771642	Delete element
+1717684923954	Encapsulate field 'id'
+1717684929364	Encapsulate field 'password'
+1717684932793	Encapsulate field 'email'
+1717684935561	Encapsulate field 'name'
+1717684938610	Encapsulate field 'age'
+1717684943387	Encapsulate field 'sex'

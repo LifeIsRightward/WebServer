@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Profile</title>
+</head>
+<body>
+	<%@ page import = "javabean.*" %>
+	
+	<% 
+		String useid = ""; 
+		String name = "";
+		String num = "";
+		String year = "";
+		String pw = "";
+		String email = "";
+		useid = request.getParameter("id");
+		
+		if(useid != null){
+			String idnum = useid;
+			memberDBCP mDBCP = new memberDBCP();
+			member se = mDBCP.getMember(idnum);
+			name = se.getName();
+			num = se.getNum();
+			year = se.getYear();
+			pw = se.getPassword();
+			email = se.getEmail();
+
+		}
+		
+	%>
+</body>
+</html>

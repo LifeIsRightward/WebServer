@@ -2,4 +2,5 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="javabean.StudentEntity"/>
+    <fullyQualifiedTypeName name="javabean.member"/>
 </qualifiedTypeNameHistroy>

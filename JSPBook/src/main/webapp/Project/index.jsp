@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<%@ page import="java.sql.*" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +10,13 @@
 <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
+	<%@ include file="dbconn.jsp" %>
+	<%@ page import = "javabean.*" %>
+    
+    <%
+    	String uid = request.getParameter("id");
+    %>
+    
     <header>
         <h1>CT: Culture&Trip</h1>
         <nav>
@@ -17,7 +24,7 @@
                 <li><a href="#">나라 소개</a></li>
                 <li><a href="#">여행 성향 분석</a></li>
                 <li><a href="#">여행 후기 게시판</a></li>
-                <li><a href="#">프로필</a></li>
+                <li><a href="profile.jsp?id=<%=uid%>">프로필</a></li>
             </ul>
         </nav>
     </header>
