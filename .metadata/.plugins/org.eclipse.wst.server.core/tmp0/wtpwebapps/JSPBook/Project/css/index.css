@@ -40,6 +40,11 @@ header > h1{
 	margin-left:2%;
 }
 
+h1 > a{
+	text-decoration: none; /* 기본 텍스트 장식 제거 */
+	color: #333; /* 링크 색상 */
+}
+
 nav ul {
     list-style: none; /* 기본 목록 스타일 제거 */
     margin-right: 50px; 

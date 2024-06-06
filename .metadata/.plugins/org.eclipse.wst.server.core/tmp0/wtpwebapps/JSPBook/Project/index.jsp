@@ -18,7 +18,7 @@
     %>
     
     <header>
-        <h1>CT: Culture&Trip</h1>
+        <h1><a href="index.jsp?id=<%=uid%>">CT: Culture&Trip</a></h1>
         <nav>
             <ul>
                 <li><a href="#">나라 소개</a></li>

@@ -9,6 +9,9 @@
 </head>
 <body>
     <div class="login-container">
+    	<div class="welcome-message">
+            <h2>Welcome to Our Site!!</h2>
+        </div>
         <h1>Login</h1>
         <form method="post" action="loginprocess.jsp">
             <label for="id">ID</label>

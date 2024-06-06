@@ -22,6 +22,8 @@
 		String update = request.getParameter("update");
 		Statement stmt = null;
 		
+		out.println(mid);
+		
 		if(update.equals("update")){
 			try{
 				String sql = "update member set ";
@@ -34,7 +36,11 @@
 				stmt = conn.createStatement();
 				stmt.executeUpdate(sql);
 				out.print("레코드 수정 성공");
-				response.sendRedirect("profile.jsp?id="+mid);
+				out.println("<script type='text/javascript'>");
+			    out.println("alert('회원정보 수정 성공!');");
+			    out.println("location.href='profile.jsp?id="+mid+"';");
+			    out.println("</script>");
+				//response.sendRedirect("profile.jsp?id="+mid);
 			}catch(SQLException ex){
 				out.println("레코드 수정 실패");
 				out.println("SQLException: " + ex.getMessage());
@@ -43,6 +49,12 @@
 				if(stmt != null) stmt.close();
 				if(conn != null) conn.close();
 			}
+		}else{
+			out.println("<script type='text/javascript'>");
+		    out.println("alert('회원정보 수정 실패했습니다.');");
+		    out.println("location.href='profile.jsp?id="+mid+"';");
+		    out.println("</script>");
+		    //예외처리.. 근데 아마 오류 안날거 같아서 그냥 피드백만 보여주는걸로 하자
 		}
 	
 	%>
