@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<%@ page import = "javabean.*" %>
+	<%
+		String id = request.getParameter("id");
+		//그냥 혹시 몰라서 아이디 넘겨준거임 ㅇㅇ
+		
+		int num = 0;
+		String writer = "";
+		String title = "";
+		String content = "";
+		String ipaddr = "";
+		int hitcount = "";
+		String created;
+		
+	
+		
+	%>
+	
+</body>
+</html>

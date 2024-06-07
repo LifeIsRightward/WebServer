@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<%@ include file="dbconn.jsp"%>
+
+	<%
+		String id = request.getParameter("id");
+		String cmpnum = request.getParameter("num");
+		
+		ResultSet rs = null;
+		Statement stmt = null;
+	
+		try{
+			String sql = "select * from board where num="+Integer.parseInt(cmpnum);
+			stmt = conn.createStatement();
+			rs = stmt.executeQuery(sql);
+			
+			int upcount = rs.getInt("hitcount") + 1;
+			
+			//update
+			String update_sql = "update board set ";
+			sql += "hitcount=" + upcount;
+			sql += "where num=" + Integer.parseInt(cmpnum);
+			response.sendRedirect("tcshow.jsp?id="+ id + "&num=" + cmpnum);
+			
+		}catch(SQLException ex){
+				out.println("person 테이블 호출이 실패했습니다. <br>");
+				out.println("SQLException: " + ex.getMessage());
+		}finally{
+			if(rs != null){ rs.close();}
+			if(stmt != null){stmt.close();}
+			if(conn != null){conn.close();}
+		}
+		
+	%>
+
+</body>
+</html>

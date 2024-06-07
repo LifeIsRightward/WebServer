@@ -11,11 +11,10 @@
 	<%@ include file="dbconn.jsp" %>
 	<table width="300" border="1">
 		<tr>
-			<th>num</th>
+			<th>고유번호</th>
 			<th>writer</th>
 			<th>title</th>
 			<th>contents</th>
-			<th>ipaddr</th>
 			<th>hitcount</th>
 			<th>created</th>
 		</tr>
@@ -34,16 +33,15 @@
 					String writer = rs.getString("writer");
 					String title = rs.getString("title");
 					String contents = rs.getString("content");
-					String ipaddr = rs.getString("ipaddr");
 					int hitcount = rs.getInt("hitcount");
 					String created = rs.getString("created");
 		%>
 		<tr>
-			<td><%=num%></td>
+			<!-- <a href="tcshow.jsp?id=<%=id%>&num=<%=num%>"><%=num%></a></td> --><td>
+			<a href="tchitcount.jsp?id=<%=id%>&num=<%=num%>"><%=num%></a></td>
 			<td><%=writer%></td>
 			<td><%=title%></td>
 			<td><%=contents%></td>
-			<td><%=ipaddr%></td>
 			<td><%=hitcount%></td>
 			<td><%=created%></td>
 		</tr>
@@ -60,6 +58,6 @@
 		%>
 	</table>
 	<br><br>
-	<input type="button" value="글쓰기" onClick="location.href='edit.jsp'">
+	<input type="button" value="글쓰기" onClick="location.href='tcwrite.jsp?id=<%=id%>'">
 </body>
 </html>
