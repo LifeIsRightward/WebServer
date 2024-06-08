@@ -1,0 +1,132 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>대한민국 여행 정보</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        width: 100%;
+        height: 500px;
+        background-image: url('assets/Korea.png');
+        background-size: cover;
+        background-position: center;
+    }
+    .content {
+        display: flex;
+        margin: 20px;
+    }
+    .left {
+        width: 70%;
+        padding: 20px;
+    }
+    .right {
+        width: 30%;
+        padding: 20px;
+    }
+    h1, h2 {
+        color: #333;
+    }
+    .list-view {
+        list-style: none;
+        padding: 0;
+    }
+    .list-view li {
+        background: #f4f4f9;
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    .list-view img {
+        width: 40%; /* 이미지 너비를 50%로 설정 */
+        height: auto;
+        border-radius: 5px;
+        margin: 0 auto 10px auto; /* 이미지 중앙 정렬 및 하단 여백 추가 */
+        display: block; /* 블록 레벨 요소로 설정 */
+    }
+    .list-view span {
+        display: block;
+        text-align: left; /* 텍스트 좌측 정렬 */
+        word-break: break-word; /* 긴 단어가 div를 넘어가지 않도록 설정 */
+    }
+    .tourist-info {
+        background: #f4f4f9;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+    <div class="header"></div>
+    <div class="content">
+        <div class="left">
+            <h1>대한민국</h1>
+            <h2>문화적 특성</h2>
+            <ul class="list-view">
+                <li>
+                	<h3>개요</h3>
+                    <img src="assets/KoreaFlag.png" alt="문화적 특성 1">
+                    <span>                 
+                    &nbsp 오늘날 한국의 문화는 국제적인 명성을 얻었으며, 흔히 말하는 소프트 파워로 따지자면 한국은 슈퍼 파워로 분류된다. 국제적으로 여기에 해당되는 국가는 미국, 영국, 프랑스, 독일, 이탈리아, 일본 등 소수 문화강국들 뿐이다                 
+                    대한민국은 동아시아의 한반도에 위치한 대통령제 공화국이다. 서쪽으로 중화인민공화국, 동쪽으로 일본에 접해 있으며, 북쪽으로 조선민주주의인민공화국과 닿아 있다. 수도이자 최대 도시는 서울특별시이다.<br><br>
+					
+					&nbsp 한반도는 제2차 세계 대전에서 일본이 패전한 이후 분단되었으며, 1948년에 대한민국이 수립되었다. 대한민국은 이후 미국과의 동맹을 유지하며 성공적으로 민주주의를 발전시켰다.<br><br>
+				
+					&nbsp 대한민국은 1960년대부터 1980년대까지 세계에서 가장 빠른 경제 성장을 이룬 국가들 중 하나이며 선진국으로 여겨지고 있다. 
+					대한민국은 G20과 경제협력개발기구의 회원국이다. 조선민주주의인민공화국과의 긴장 상태로 인해, 대한민국은 세계 6위의 군사 대국이며 세계 10위의 국방비를 지출하고 있다.<br><br>
+
+					&nbsp 대한민국의 산업은 과학과 기술 분야에 집중되어 있다. 기반 시설과 대규모 가족 기업인 재벌이 주도하는 반도체, 액정 디스플레이, 컴퓨터, 휴대 전화 등의 정보기술이 발달해 있다.[3] 대한민국의 경제는 건설, 공학, 기계, 로봇공학, 생명공학기술, 석유화학 분야에 집중되어 있다.</span>
+                </li>
+                <li>
+                	<h3>전통 문화</h3>
+                    <img src="images/korea_culture2.jpg" alt="문화적 특성 2">
+                    <span>의 식 주</span>
+                </li>
+                <li>
+                	<h3>식 문화</h3>
+                    <img src="images/korea_culture3.jpg" alt="문화적 특성 3">
+                    <span>한국은 현대적이고 기술적으로 앞서있는 나라입니다.</span>
+                </li>
+                <li>
+                	<h3>건축</h3>
+                    <img src="images/korea_culture3.jpg" alt="문화적 특성 3">
+                    <span>한국은 현대적이고 기술적으로 앞서있는 나라입니다.</span>
+                </li>
+                <li>
+                	<h3>문학 & 미술</h3>
+                    <img src="images/korea_culture3.jpg" alt="문화적 특성 3">
+                    <span>한국은 현대적이고 기술적으로 앞서있는 나라입니다.</span>
+                </li>
+                <li>
+                	<h3>현대 대중문화</h3>
+                    <img src="images/korea_culture3.jpg" alt="문화적 특성 3">
+                    <span>한국은 현대적이고 기술적으로 앞서있는 나라입니다.</span>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <h2>관광지 정보</h2>
+            <div class="tourist-info">
+                <h3>서울</h3>
+                <p>서울은 대한민국의 수도로, 역사와 현대가 조화를 이루는 도시입니다. 경복궁, 남산타워, 명동 등이 유명합니다.</p>
+            </div>
+            <div class="tourist-info">
+                <h3>부산</h3>
+                <p>부산은 대한민국의 제2의 도시로, 해운대 해수욕장, 감천문화마을, 자갈치 시장 등이 유명합니다.</p>
+            </div>
+            <div class="tourist-info">
+                <h3>제주도</h3>
+                <p>제주도는 아름다운 자연경관과 독특한 문화로 유명한 섬입니다. 한라산, 성산일출봉, 제주올레길 등이 유명합니다.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

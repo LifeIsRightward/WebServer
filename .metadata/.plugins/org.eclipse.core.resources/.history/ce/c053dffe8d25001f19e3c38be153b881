@@ -1,0 +1,121 @@
+@charset "EUC-KR";
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 20px;
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    .row {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+    }
+    
+    h1 > a{
+		text-decoration: none; /* 기본 텍스트 장식 제거 */
+		color: #333; /* 링크 색상 */
+	}
+    
+
+    header {
+		display: flex; /* header를 flexbox로 설정 */
+	    align-items: center; /* 항목들을 중앙 정렬 */
+	    justify-content: space-between; /* 항목들을 양쪽 끝으로 분산 */
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    height: 100px; /* header 높이 설정 */
+	    width: 100%; /* 전체 너비 차지 */
+	    background-color: #fff; /* 배경색 */
+	    padding: 10px 0; /* 여백 설정 */
+	     z-index: 10; /* 다른 요소 위에 표시 */
+	    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+	}
+
+	header > h1{
+		margin-left:2%;
+	}
+	
+	nav ul {
+	    list-style: none; /* 기본 목록 스타일 제거 */
+	    margin-right: 50px; 
+	    padding: 0; /* 여백 제거 */
+	    text-align: right; /* 오른쪽 정렬 */
+	}
+
+	nav li {
+	    display: inline-block; /* li 요소를 가로로 나열 */
+	    margin-right: 30px; /* 각 li 요소 사이 여백 */
+	}
+	
+	nav a {
+	    color: #333; /* 링크 색상 */
+	    text-decoration: none; /* 기본 텍스트 장식 제거 */
+	    font-weight: bold; /* 글씨체 강조 */
+	    font-size: 1.2em;
+	}
+	
+	nav a:hover {
+	    color: #408080; /* 마우스 호버 시 링크 색상 변경 */
+	}
+	
+	.introduce{
+		margin-top: 8%;
+	}
+	
+    .country {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        width: 30%; /* 너비를 30%로 설정 */
+        height: 450px; /* 높이를 400px로 설정 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.6s, transform 0.6s;
+    }
+    .country.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+    .overlay h2 {
+        margin: 0;
+        font-size: 2em;
+    }
+    .overlay p {
+        font-size: 1.2em;
+    }
+    .overlay a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.2s;
+    }
+    .overlay a:hover {
+        background-color: #0056b3;
+    }
