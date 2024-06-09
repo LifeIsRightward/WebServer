@@ -3,6 +3,6 @@ function deletecheck(num, id) {
     console.log(isDelete);
 
     if (isDelete) {
-       location.href='tcprocess.jsp?separation=delete&num='+num +'&id='+id;
+       location.href='../Controller/tcprocess.jsp?separation=delete&num='+num +'&id='+id;
     }
 }

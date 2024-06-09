@@ -3179,3 +3179,91 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2024-06-10 00:52:43.712
+!MESSAGE can not get a buffer without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not get a buffer without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.getBuffer(FileBufferModelManager.java:674)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.getModelPath(JSPTranslator.java:3310)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.writeExternal(JSPTranslator.java:3418)
+	at java.base/java.io.ObjectOutputStream.writeExternalData(ObjectOutputStream.java:1465)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1436)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:350)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslator(JSPTranslatorPersister.java:265)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslation(JSPTranslatorPersister.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:139)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob$1.run(AbstractIndexManager.java:1569)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1567)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 01:06:18.915
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 01:06:19.020
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "C:\Users\Kimmeohyun\Desktop\eclipse-jee-2024-03-R-win32-x86_64\eclipse\plugins\org.eclipse.wildwebdeveloper_1.1.4.202311211923\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 01:06:19.041
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 02:45:57.127
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 02:45:57.213
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "C:\Users\Kimmeohyun\Desktop\eclipse-jee-2024-03-R-win32-x86_64\eclipse\plugins\org.eclipse.wildwebdeveloper_1.1.4.202311211923\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 02:45:57.216
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}
+
+!ENTRY org.eclipse.jface 2 0 2024-06-10 02:49:03.192
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-10 02:49:03.192
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 02:49:32.350
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 02:49:54.546
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 02:54:08.112
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 02:54:30.188
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 03:41:48.384
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 03:41:48.446
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "C:\Users\Kimmeohyun\Desktop\eclipse-jee-2024-03-R-win32-x86_64\eclipse\plugins\org.eclipse.wildwebdeveloper_1.1.4.202311211923\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 03:41:48.448
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 04:37:39.829
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 04:37:39.889
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "C:\Users\Kimmeohyun\Desktop\eclipse-jee-2024-03-R-win32-x86_64\eclipse\plugins\org.eclipse.wildwebdeveloper_1.1.4.202311211923\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-06-10 04:37:39.891
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}

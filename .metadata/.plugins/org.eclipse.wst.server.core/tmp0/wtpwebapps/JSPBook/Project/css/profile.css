@@ -66,6 +66,7 @@ body {
 	
 	nav a:hover {
 	    color: #408080; /* 마우스 호버 시 링크 색상 변경 */
+	    text-decoration: none; /* 기본 텍스트 장식 제거 */
 	}
 	
     .form-group {
@@ -77,7 +78,7 @@ body {
         color: #333;
     }
     .form-group input {
-        width: 100%;
+        width: 95%;
         padding: 10px;
         border: 1px solid #ccc;
         border-radius: 4px;
@@ -87,6 +88,7 @@ body {
         color: white;
         border: none;
         cursor: pointer;
+        margin-left: 2%;
     }
     .form-group input[type="submit"]:hover {
         background-color: #45a049;

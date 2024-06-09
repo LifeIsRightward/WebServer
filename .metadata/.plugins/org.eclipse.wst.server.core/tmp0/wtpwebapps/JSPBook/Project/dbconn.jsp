@@ -1,6 +1,7 @@
 <%@ page import="java.sql.*"%>
 
 <%
+request.setCharacterEncoding("utf-8");
 	Connection conn = null;
 	String url = "jdbc:mysql://127.0.0.1:3306/test";
 	String user = "root";

@@ -1,6 +1,6 @@
 var mHtml = $("html");
 var page = 1;
-var sectionHeight = ($(window).height()*0.7); // 페이지 절반 높이 계산
+var sectionHeight = ($(window).height()*0.9); // 페이지 절반 높이 계산
 
 mHtml.animate({scrollTop : 0},10);
 

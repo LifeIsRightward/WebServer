@@ -1,0 +1,167 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>북한 여행 정보</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        width: 100%;
+        height: 600px;
+        background-image: url('assets/NationInfo/NKorea/NK0.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .content {
+        display: flex;
+        margin: 20px;
+    }
+    .left {
+        width: 70%;
+        padding: 20px;
+    }
+    .right {
+        width: 30%;
+        padding: 20px;
+    }
+    h1, h2 {
+        color: #333;
+    }
+    .list-view {
+        list-style: none;
+        padding: 0;
+    }
+    .list-view li {
+        background: #f4f4f9;
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    .list-view img {
+        width: 40%;
+        height: auto;
+        border-radius: 5px;
+        margin: 0 auto 10px auto;
+        display: block;
+    }
+    .list-view span {
+        display: block;
+        text-align: left;
+        word-break: break-word;
+    }
+    .tourist-info {
+        background: #f4f4f9;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .tourist-info img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+    <div class="header"></div>
+    <div class="content">
+        <div class="left">
+            <h1>북한</h1>
+            <h2>문화적 특성</h2>
+            <ul class="list-view">
+                <li>
+                    <h3>개요</h3>
+                    <img src="assets/NationInfo/NKorea/NKFlag.png" alt="문화적 특성 1">
+                    <h4>수도: 평양</h4>
+                    <span>
+                    &nbsp 북한은 동아시아의 한반도 북쪽에 위치한 공산주의 국가입니다. 공식 명칭은 조선민주주의인민공화국으로, 수도는 평양입니다. 북한은 주체사상을 바탕으로 한 정치 체제를 가지고 있으며, 김일성, 김정일, 김정은 세습 체제로 운영되고 있습니다.<br><br>
+                    
+                    &nbsp 북한은 1948년 대한민국과 분단되었으며, 이후 철저한 통제를 바탕으로 자주적 사회주의 경제를 구축하려 노력해왔습니다. 그러나 경제적 어려움과 국제 제재로 인해 현재 경제 상황은 매우 어렵습니다.<br><br>
+                    
+                    &nbsp 북한의 문화는 주체사상을 중심으로 한 독특한 형태를 띠고 있으며, 음악, 무용, 영화 등 다양한 예술 활동이 국가의 지도 하에 이루어지고 있습니다.
+                    </span>
+                </li>
+                <li>
+                    <h3>전통 문화</h3>
+                    <img src="assets/NationInfo/NKorea/NK1.jpg" alt="문화적 특성 2">
+                    <span>
+                    &nbsp 북한의 전통 문화는 조선 시대의 유산을 많이 보존하고 있으며, 특히 전통 무용과 음악이 발달해 있습니다. 북한의 민속춤과 가락은 주로 국가 행사나 공연을 통해 자주 선보여지며, 주민들에게 큰 자부심을 줍니다.<br><br>
+                    
+                    &nbsp 또한, 농촌 지역에서는 전통적인 농업 방식과 함께 마을 공동체 문화를 유지하고 있습니다. 설날, 추석 등 전통 명절도 중요한 행사로, 가족들이 모여 음식을 나누고 조상을 기리는 풍습이 이어지고 있습니다.
+                    </span>
+                </li>
+                <li>
+                    <h3>식 문화</h3>
+                    <img src="assets/NationInfo/NKorea/NK2.jpg" alt="문화적 특성 3">
+                    <span>
+                    &nbsp 북한의 음식은 한국 전통 음식을 기반으로 하면서도 독특한 특징을 가지고 있습니다. 대표적인 음식으로는 평양냉면, 김치, 된장국 등이 있으며, 특히 평양냉면은 북한을 대표하는 음식으로 손꼽힙니다.<br><br>
+                    
+                    &nbsp 북한의 식문화는 계절에 따라 변화하며, 특히 겨울에는 김치를 비롯한 절임 채소들이 주요 식재료로 사용됩니다. 또한, 자급자족의 원칙에 따라 지역에서 생산되는 농산물을 주로 이용하며, 자연에서 채집한 산나물 등도 많이 활용됩니다.
+                    </span>
+                </li>
+                <li>
+                    <h3>건축</h3>
+                    <img src="assets/NationInfo/NKorea/NK3.png" alt="문화적 특성 4">
+                    <span>
+                    &nbsp 북한의 건축물은 주로 사회주의 리얼리즘 양식을 따르며, 국가의 이념을 반영한 대규모 건축물이 많이 존재합니다. 대표적인 예로는 주체사상탑, 금수산태양궁전, 만수대 대기념비 등이 있습니다.<br><br>
+                    
+                    &nbsp 또한, 평양에는 대규모 아파트 단지가 많이 건설되어 있으며, 최근에는 김정은 정권 하에서 현대적 양식의 건축물도 점차 늘어나고 있습니다. 이 외에도, 농촌 지역에서는 전통 한옥 양식의 집들이 여전히 많이 남아 있습니다.
+                    </span>
+                </li>
+                <li>
+                    <h3>현대 대중문화</h3>
+                    <img src="assets/NationInfo/NKorea/NK4.jpg" alt="문화적 특성 5">
+                    <span>
+                    &nbsp 북한의 현대 대중문화는 주로 국가의 통제 하에 이루어지며, 선전과 교육의 도구로 활용되고 있습니다. 영화, 음악, 무용 등 다양한 예술 분야에서 혁명적이고 애국적인 내용을 주제로 한 작품들이 많이 제작됩니다.<br><br>
+                    
+                    &nbsp 특히, 북한의 음악은 사회주의 리얼리즘을 반영한 곡들이 주를 이루며, 조선중앙방송을 통해 전국적으로 방송됩니다. 최근에는 북한의 전통 음악과 현대적인 요소를 결합한 새로운 형태의 음악도 소개되고 있습니다.
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+        <h2>관광지</h2>
+        <div class="tourist-info">
+            <h3>평양 김일성 광장</h3>
+            <img src="assets/NationInfo/NKorea/NK5.png" alt="김일성 광장">
+            <p>김일성 광장은 평양의 중심부에 위치한 대형 광장으로, 주요 국가 행사가 열리는 장소입니다. 넓은 광장과 주변의 상징적인 건축물들을 볼 수 있습니다.</p>
+        </div>
+        <div class="tourist-info">
+            <h3>개성 판문점</h3>
+            <img src="assets/NationInfo/NKorea/NK6.png" alt="판문점">
+            <p>판문점은 남북한의 군사분계선에 위치한 곳으로, 역사적인 남북 회담이 열렸던 장소입니다. 관광객들은 이곳에서 남북한의 경계를 직접 볼 수 있습니다.</p>
+        </div>
+        <div class="tourist-info">
+            <h3>금강산</h3>
+            <img src="assets/NationInfo/NKorea/NK7.jpg" alt="금강산">
+            <p>금강산은 북한의 대표적인 관광지로, 아름다운 자연 경관과 산세가 유명합니다. 특히 가을 단풍이 아름다우며, 등산과 트레킹을 즐길 수 있는 명소입니다.</p>
+        </div>
+        <div class="tourist-info">
+            <h3>묘향산</h3>
+            <img src="assets/NationInfo/NKorea/NK8.jpg" alt="묘향산">
+            <p>묘향산은 북한의 명산 중 하나로, 아름다운 자연 경관과 더불어 보현사, 국제친선전람관 등 문화 유적지가 많습니다.</p>
+        </div>
+        <div class="tourist-info">
+            <h3>백두산</h3>
+            <img src="assets/NationInfo/NKorea/NK9.jpg" alt="백두산">
+            <p>백두산은 한반도의 최고봉으로, 북한과 중국의 경계에 위치하고 있습니다. 천지와 웅장한 산세가 유명하며, 자연 애호가들에게 인기가 많습니다.</p>
+        </div>
+        <div class="tourist-info">
+            <h3>고려 호텔</h3>
+            <img src="assets/NationInfo/NKorea/NK10.jpg" alt="고려 호텔">
+            <p>고려 호텔은 평양에 위치한 북한의 대표적인 호텔로, 국제 관광객들을 위한 숙박 시설입니다. 현대적인 시설과 서비스를 제공합니다.</p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

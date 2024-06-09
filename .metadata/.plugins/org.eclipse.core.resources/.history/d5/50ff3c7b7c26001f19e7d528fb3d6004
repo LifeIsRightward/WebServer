@@ -1,0 +1,112 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 50%;
+        margin: auto;
+        overflow: hidden;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    th {
+        background-color: #f2f2f2;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    td {
+        padding: 10px;
+        font-size: 1em;
+    }
+    input[type="text"], textarea {
+        width: calc(100% - 22px);
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    textarea {
+        height: 100px; /* 높이를 키웠습니다 */
+    }
+    input[type="submit"], input[type="button"] {
+        background-color: #3498db;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 5px;
+    }
+    input[type="button"] {
+        background-color: #95a5a6;
+    }
+    input[type="submit"]:hover, input[type="button"]:hover {
+        background-color: #2980b9;
+    }
+    input[type="button"]:hover {
+        background-color: #7f8c8d;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <%@ page import = "javabean.*" %>
+        <%
+        request.setCharacterEncoding("utf-8");
+            String id = request.getParameter("id");
+            // 그냥 혹시 몰라서 아이디 넘겨준거임 ㅇㅇ
+
+            String writer = id;
+            String title = "";
+            String content = "";
+        %>
+        
+        <form id="myForm" name="boardform" method="post" action="../Controller/tcprocess.jsp">
+            <table>
+                <tr>
+                    <th colspan="2" style="background: yellow">글쓰기</th>
+                </tr>
+                <tr>
+                    <td>작성자: </td>
+                    <td>
+                        <input type="text" name="writer" value="<%=writer%>" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>제목: </td>
+                    <td><input type="text" name="title" value="<%=title%>"></td>
+                </tr>
+                <tr>
+                    <td>글 본문 </td>
+                    <td><textarea name="content"><%=content%></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="insert" name="separation">
+                        <input type="button" value="취소" onClick="location.href='tripcommunity.jsp?id=<%=id%>'">
+                        <input type="button" value="목록보기" onClick="location.href='tripcommunity.jsp?id=<%=id%>'">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
