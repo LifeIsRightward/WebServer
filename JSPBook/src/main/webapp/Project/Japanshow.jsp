@@ -14,7 +14,7 @@
     .header {
         width: 100%;
         height: 600px;
-        background-image: url('assets/Japan.png');
+        background-image: url('assets/NationInfo/Japan/J0.jpg');
         background-size: cover;
         background-position: center;
     }
@@ -92,7 +92,7 @@
                 </li>
                 <li>
                     <h3>전통 문화</h3>
-                    <img src="assets/JapanCulture.png" alt="문화적 특성 2">
+                    <img src="assets/NationInfo/Japan/J1.jpeg" alt="문화적 특성 2">
                     <span>
                     &nbsp 일본의 전통 문화는 긴 역사 속에서 발전해왔으며, 특히 예술, 문학, 종교 등의 분야에서 중요한 역할을 해왔습니다. 일본의 전통적인 춤과 음악, 다도, 서예 등은 전 세계적으로 유명합니다.<br><br>
                     
@@ -101,7 +101,7 @@
                 </li>
                 <li>
                     <h3>식 문화</h3>
-                    <img src="assets/JapanFood.png" alt="문화적 특성 3">
+                    <img src="assets/NationInfo/Japan/J2.png" alt="문화적 특성 3">
                     <span>
                     &nbsp 일본의 음식 문화는 매우 다양하며, 신선한 재료와 정교한 조리법이 특징입니다. 대표적인 음식으로는 스시, 사시미, 라멘, 템푸라 등이 있습니다.<br><br>
                     
@@ -110,7 +110,7 @@
                 </li>
                 <li>
                     <h3>건축</h3>
-                    <img src="assets/JapanArchitecture.png" alt="문화적 특성 4">
+                    <img src="assets/NationInfo/Japan/J3.png" alt="문화적 특성 4">
                     <span>
                     &nbsp 일본의 건축은 전통적인 목조 건축물과 현대적인 건축물이 조화를 이루고 있습니다. 대표적인 건축물로는 도쿄 타워, 교토의 금각사, 오사카 성 등이 있습니다.<br><br>
                     
@@ -119,7 +119,7 @@
                 </li>
                 <li>
                     <h3>현대 대중문화</h3>
-                    <img src="assets/JapanPopCulture.png" alt="문화적 특성 5">
+                    <img src="assets/NationInfo/Japan/J4.jpg" alt="문화적 특성 5">
                     <span>
                     &nbsp 일본의 현대 대중문화는 애니메이션, 만화, 게임 등 다양한 분야에서 전 세계적으로 큰 인기를 끌고 있습니다. 일본의 영화, 음악, 드라마도 많은 팬층을 보유하고 있습니다.<br><br>
                     
@@ -132,32 +132,32 @@
         <h2>관광지</h2>
         <div class="tourist-info">
             <h3>도쿄 타워</h3>
-            <img src="assets/Japan1.jpg" alt="도쿄 타워">
+            <img src="assets/NationInfo/Japan/J5.jpg" alt="도쿄 타워">
             <p>도쿄 타워는 일본 도쿄의 랜드마크로, 아름다운 야경과 도쿄 시내 전경을 감상할 수 있는 전망대가 있습니다.</p>
         </div>
         <div class="tourist-info">
             <h3>후지산</h3>
-            <img src="assets/Japan2.jpg" alt="후지산">
+            <img src="assets/NationInfo/Japan/J6.jpg" alt="후지산">
             <p>후지산은 일본의 상징적인 산으로, 등산과 함께 아름다운 자연 경관을 즐길 수 있는 인기 관광지입니다.</p>
         </div>
         <div class="tourist-info">
             <h3>교토의 금각사</h3>
-            <img src="assets/Japan3.jpg" alt="금각사">
+            <img src="assets/NationInfo/Japan/J7.jpg" alt="금각사">
             <p>교토에 위치한 금각사는 일본의 전통 건축 양식을 잘 보여주는 유서 깊은 사찰입니다.</p>
         </div>
         <div class="tourist-info">
             <h3>오사카 성</h3>
-            <img src="assets/Japan4.jpg" alt="오사카 성">
+            <img src="assets/NationInfo/Japan/J8.jpg" alt="오사카 성">
             <p>오사카 성은 일본의 대표적인 역사 유적지로, 아름다운 성곽과 함께 주변 공원이 인상적입니다.</p>
         </div>
         <div class="tourist-info">
             <h3>나라의 사슴 공원</h3>
-            <img src="assets/Japan5.jpg" alt="사슴 공원">
+            <img src="assets/NationInfo/Japan/J9.png" alt="사슴 공원">
             <p>나라의 사슴 공원은 자유롭게 돌아다니는 사슴들과 함께할 수 있는 독특한 관광지입니다.</p>
         </div>
         <div class="tourist-info">
             <h3>히로시마 평화 기념 공원</h3>
-            <img src="assets/Japan6.jpg" alt="평화 기념 공원">
+            <img src="assets/NationInfo/Japan/J10.jpg" alt="평화 기념 공원">
             <p>히로시마 평화 기념 공원은 원자 폭탄 피해를 기억하고 평화를 기원하는 장소로, 역사적 의미가 깊은 곳입니다.</p>
         </div>
     </div>

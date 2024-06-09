@@ -14,7 +14,7 @@
     .header {
         width: 100%;
         height: 600px;
-        background-image: url('assets/Mongolia.png');
+        background-image: url('assets/NationInfo/Mongolia/M0.png');
         background-size: cover;
         background-position: center;
     }
@@ -90,7 +90,7 @@
                 </li>
                 <li>
                     <h3>전통 문화</h3>
-                    <img src="assets/MongoliaCulture.png" alt="몽골 전통 문화">
+                    <img src="assets/NationInfo/Mongolia/M1.jpg" alt="몽골 전통 문화">
                     <span>
                     &nbsp 몽골의 전통 문화는 유목 생활과 깊이 연관되어 있습니다. 몽골인들은 게르라는 전통적인 천막에서 생활하며, 말, 양, 소, 낙타 등의 가축을 키웁니다. 몽골의 전통 음악과 춤, 공예품 등은 유목민의 생활 방식을 반영하고 있습니다.<br><br>
                     
@@ -99,7 +99,7 @@
                 </li>
                 <li>
                     <h3>식 문화</h3>
-                    <img src="assets/MongoliaFood.png" alt="몽골 음식 문화">
+                    <img src="assets/NationInfo/Mongolia/M2.jpg" alt="몽골 음식 문화">
                     <span>
                     &nbsp 몽골의 음식 문화는 유목 생활과 밀접한 관계가 있습니다. 대표적인 음식으로는 보즈, 호쇼르, 수테 차이 등이 있습니다. 보즈는 만두와 비슷한 음식으로, 양고기나 소고기로 만든 속을 채운 반죽을 찌거나 구워서 만듭니다.<br><br>
                     
@@ -108,7 +108,7 @@
                 </li>
                 <li>
                     <h3>건축</h3>
-                    <img src="assets/MongoliaArchitecture.png" alt="몽골 건축">
+                    <img src="assets/NationInfo/Mongolia/M3.png" alt="몽골 건축">
                     <span>
                     &nbsp 몽골의 건축은 유목민의 전통적인 이동식 가옥인 게르가 가장 대표적입니다. 게르는 원형의 천막 구조로, 쉽게 이동하고 설치할 수 있어 유목 생활에 최적화된 건축물입니다.<br><br>
                     
@@ -117,7 +117,7 @@
                 </li>
                 <li>
                     <h3>현대 대중문화</h3>
-                    <img src="assets/MongoliaPopCulture.png" alt="몽골 대중 문화">
+                    <img src="assets/NationInfo/Mongolia/M4.jpg" alt="몽골 대중 문화">
                     <span>
                     &nbsp 몽골의 현대 대중문화는 전통과 현대가 혼합된 독특한 모습을 보입니다. 몽골의 음악, 영화, 패션 등 다양한 분야에서 현대적인 요소와 전통적인 요소가 조화를 이루고 있습니다.<br><br>
                     
@@ -130,32 +130,32 @@
         <h2>관광지</h2>
         <div class="tourist-info">
             <h3>고비 사막</h3>
-            <img src="assets/Mongolia1.jpg" alt="고비 사막">
+            <img src="assets/NationInfo/Mongolia/M5.jpg" alt="고비 사막">
             <p>고비 사막은 몽골 남부에 위치한 광활한 사막으로, 독특한 풍경과 모험을 즐길 수 있는 관광지입니다.</p>
         </div>
         <div class="tourist-info">
             <h3>테를지 국립공원</h3>
-            <img src="assets/Mongolia2.jpg" alt="테를지 국립공원">
+            <img src="assets/NationInfo/Mongolia/M6.jpg" alt="테를지 국립공원">
             <p>테를지 국립공원은 몽골의 자연 경관을 즐길 수 있는 곳으로, 하이킹, 승마, 캠핑 등 다양한 활동을 할 수 있습니다.</p>
         </div>
         <div class="tourist-info">
             <h3>울란바토르의 간단 사원</h3>
-            <img src="assets/Mongolia3.jpg" alt="간단 사원">
+            <img src="assets/NationInfo/Mongolia/M7.jpg" alt="간단 사원">
             <p>간단 사원은 울란바토르에 위치한 불교 사원으로, 몽골의 종교적 역사와 문화를 엿볼 수 있는 중요한 장소입니다.</p>
         </div>
         <div class="tourist-info">
             <h3>오르혼 계곡</h3>
-            <img src="assets/Mongolia4.jpg" alt="오르혼 계곡">
+            <img src="assets/NationInfo/Mongolia/M8.jpg" alt="오르혼 계곡">
             <p>오르혼 계곡은 몽골의 역사적 유적지로, 유네스코 세계유산으로 지정되어 있습니다. 이곳에서는 고대 몽골 제국의 유산을 감상할 수 있습니다.</p>
         </div>
         <div class="tourist-info">
             <h3>카라코룸</h3>
-            <img src="assets/Mongolia5.jpg" alt="카라코룸">
+            <img src="assets/NationInfo/Mongolia/M9.png" alt="카라코룸">
             <p>카라코룸은 고대 몽골 제국의 수도였던 도시로, 역사적 유적과 문화적 유산을 탐방할 수 있는 곳입니다.</p>
         </div>
         <div class="tourist-info">
             <h3>나담 축제</h3>
-            <img src="assets/Mongolia6.jpg" alt="나담 축제">
+            <img src="assets/NationInfo/Mongolia/M10.png" alt="나담 축제">
             <p>나담 축제는 몽골의 전통 스포츠와 문화를 체험할 수 있는 행사로, 씨름, 활쏘기, 말타기 등의 경기가 펼쳐집니다.</p>
         </div>
     </div>

@@ -14,7 +14,7 @@
     .header {
         width: 100%;
         height: 600px;
-        background-image: url('assets/NorthKorea.png');
+        background-image: url('assets/NationInfo/NKorea/NK0.jpg');
         background-size: cover;
         background-position: center;
     }
@@ -92,7 +92,7 @@
                 </li>
                 <li>
                     <h3>전통 문화</h3>
-                    <img src="assets/NorthKoreaCulture.png" alt="문화적 특성 2">
+                    <img src="assets/NationInfo/NKorea/NK1.jpg" alt="문화적 특성 2">
                     <span>
                     &nbsp 북한의 전통 문화는 조선 시대의 유산을 많이 보존하고 있으며, 특히 전통 무용과 음악이 발달해 있습니다. 북한의 민속춤과 가락은 주로 국가 행사나 공연을 통해 자주 선보여지며, 주민들에게 큰 자부심을 줍니다.<br><br>
                     
@@ -101,7 +101,7 @@
                 </li>
                 <li>
                     <h3>식 문화</h3>
-                    <img src="assets/NorthKoreaFood.png" alt="문화적 특성 3">
+                    <img src="assets/NationInfo/NKorea/NK2.jpg" alt="문화적 특성 3">
                     <span>
                     &nbsp 북한의 음식은 한국 전통 음식을 기반으로 하면서도 독특한 특징을 가지고 있습니다. 대표적인 음식으로는 평양냉면, 김치, 된장국 등이 있으며, 특히 평양냉면은 북한을 대표하는 음식으로 손꼽힙니다.<br><br>
                     
@@ -110,7 +110,7 @@
                 </li>
                 <li>
                     <h3>건축</h3>
-                    <img src="assets/NorthKoreaArchitecture.png" alt="문화적 특성 4">
+                    <img src="assets/NationInfo/NKorea/NK3.png" alt="문화적 특성 4">
                     <span>
                     &nbsp 북한의 건축물은 주로 사회주의 리얼리즘 양식을 따르며, 국가의 이념을 반영한 대규모 건축물이 많이 존재합니다. 대표적인 예로는 주체사상탑, 금수산태양궁전, 만수대 대기념비 등이 있습니다.<br><br>
                     
@@ -119,7 +119,7 @@
                 </li>
                 <li>
                     <h3>현대 대중문화</h3>
-                    <img src="assets/NorthKoreaPopCulture.png" alt="문화적 특성 5">
+                    <img src="assets/NationInfo/NKorea/NK4.jpg" alt="문화적 특성 5">
                     <span>
                     &nbsp 북한의 현대 대중문화는 주로 국가의 통제 하에 이루어지며, 선전과 교육의 도구로 활용되고 있습니다. 영화, 음악, 무용 등 다양한 예술 분야에서 혁명적이고 애국적인 내용을 주제로 한 작품들이 많이 제작됩니다.<br><br>
                     
@@ -132,32 +132,32 @@
         <h2>관광지</h2>
         <div class="tourist-info">
             <h3>평양 김일성 광장</h3>
-            <img src="assets/NK1.jpg" alt="김일성 광장">
+            <img src="assets/NationInfo/NKorea/NK5.png" alt="김일성 광장">
             <p>김일성 광장은 평양의 중심부에 위치한 대형 광장으로, 주요 국가 행사가 열리는 장소입니다. 넓은 광장과 주변의 상징적인 건축물들을 볼 수 있습니다.</p>
         </div>
         <div class="tourist-info">
             <h3>개성 판문점</h3>
-            <img src="assets/NK2.jpg" alt="판문점">
+            <img src="assets/NationInfo/NKorea/NK6.png" alt="판문점">
             <p>판문점은 남북한의 군사분계선에 위치한 곳으로, 역사적인 남북 회담이 열렸던 장소입니다. 관광객들은 이곳에서 남북한의 경계를 직접 볼 수 있습니다.</p>
         </div>
         <div class="tourist-info">
             <h3>금강산</h3>
-            <img src="assets/NK3.jpg" alt="금강산">
+            <img src="assets/NationInfo/NKorea/NK7.jpg" alt="금강산">
             <p>금강산은 북한의 대표적인 관광지로, 아름다운 자연 경관과 산세가 유명합니다. 특히 가을 단풍이 아름다우며, 등산과 트레킹을 즐길 수 있는 명소입니다.</p>
         </div>
         <div class="tourist-info">
             <h3>묘향산</h3>
-            <img src="assets/NK4.jpg" alt="묘향산">
+            <img src="assets/NationInfo/NKorea/NK8.jpg" alt="묘향산">
             <p>묘향산은 북한의 명산 중 하나로, 아름다운 자연 경관과 더불어 보현사, 국제친선전람관 등 문화 유적지가 많습니다.</p>
         </div>
         <div class="tourist-info">
             <h3>백두산</h3>
-            <img src="assets/NK5.jpg" alt="백두산">
+            <img src="assets/NationInfo/NKorea/NK9.jpg" alt="백두산">
             <p>백두산은 한반도의 최고봉으로, 북한과 중국의 경계에 위치하고 있습니다. 천지와 웅장한 산세가 유명하며, 자연 애호가들에게 인기가 많습니다.</p>
         </div>
         <div class="tourist-info">
             <h3>고려 호텔</h3>
-            <img src="assets/NK6.jpg" alt="고려 호텔">
+            <img src="assets/NationInfo/NKorea/NK10.jpg" alt="고려 호텔">
             <p>고려 호텔은 평양에 위치한 북한의 대표적인 호텔로, 국제 관광객들을 위한 숙박 시설입니다. 현대적인 시설과 서비스를 제공합니다.</p>
         </div>
     </div>

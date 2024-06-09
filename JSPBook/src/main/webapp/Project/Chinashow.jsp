@@ -14,7 +14,7 @@
     .header {
         width: 100%;
         height: 600px;
-        background-image: url('assets/China.png');
+        background-image: url('assets/NationInfo/China/C0.jpg');
         background-size: cover;
         background-position: center;
     }
@@ -92,7 +92,7 @@
                 </li>
                 <li>
                     <h3>전통 문화</h3>
-                    <img src="assets/ChinaCulture.png" alt="문화적 특성 2">
+                    <img src="assets/NationInfo/China/C1.jpg" alt="문화적 특성 2">
                     <span>
                     &nbsp 중국의 전통 문화는 수천 년의 역사 속에서 발전해왔으며, 특히 문학, 예술, 철학 등이 중요한 역할을 해왔습니다. 중국의 전통적인 춤과 음악, 서예, 그림 등은 전 세계적으로 유명합니다.<br><br>
                     
@@ -101,7 +101,7 @@
                 </li>
                 <li>
                     <h3>식 문화</h3>
-                    <img src="assets/ChinaFood.png" alt="문화적 특성 3">
+                    <img src="assets/NationInfo/China/C2.jpg" alt="문화적 특성 3">
                     <span>
                     &nbsp 중국의 음식 문화는 매우 다양하며, 지역에 따라 독특한 요리가 많습니다. 대표적인 음식으로는 베이징의 베이징덕, 사천의 마라탕, 광둥의 딤섬 등이 있습니다.<br><br>
                     
@@ -110,7 +110,7 @@
                 </li>
                 <li>
                     <h3>건축</h3>
-                    <img src="assets/ChinaArchitecture.png" alt="문화적 특성 4">
+                    <img src="assets/NationInfo/China/C3.jpg" alt="문화적 특성 4">
                     <span>
                     &nbsp 중국의 건축은 오랜 역사와 전통을 반영한 다양한 양식을 가지고 있습니다. 대표적인 건축물로는 자금성, 만리장성, 천안문 광장 등이 있습니다.<br><br>
                     
@@ -119,7 +119,7 @@
                 </li>
                 <li>
                     <h3>현대 대중문화</h3>
-                    <img src="assets/ChinaPopCulture.png" alt="문화적 특성 5">
+                    <img src="assets/NationInfo/China/C4.png" alt="문화적 특성 5">
                     <span>
                     &nbsp 중국의 현대 대중문화는 급속한 경제 발전과 함께 빠르게 변화하고 있습니다. 영화, 음악, 드라마 등 다양한 분야에서 중국의 대중문화가 전 세계적으로 인기를 끌고 있습니다.<br><br>
                     
@@ -132,32 +132,32 @@
         <h2>관광지</h2>
         <div class="tourist-info">
             <h3>자금성</h3>
-            <img src="assets/China1.jpg" alt="자금성">
+            <img src="assets/NationInfo/China/C5.png" alt="자금성">
             <p>자금성은 베이징에 위치한 중국의 대표적인 유적지로, 명나라와 청나라 시대의 황궁이었습니다. 웅장한 건축물과 역사적 유물이 가득한 곳입니다.</p>
         </div>
         <div class="tourist-info">
             <h3>만리장성</h3>
-            <img src="assets/China2.jpg" alt="만리장성">
+            <img src="assets/NationInfo/China/C6.png" alt="만리장성">
             <p>만리장성은 중국의 대표적인 역사 유적지로, 길이가 약 21,196km에 달하는 거대한 성벽입니다. 다양한 구간에서 아름다운 경관과 역사의 흔적을 감상할 수 있습니다.</p>
         </div>
         <div class="tourist-info">
             <h3>상하이 동방명주</h3>
-            <img src="assets/China3.jpg" alt="동방명주">
+            <img src="assets/NationInfo/China/C7.png" alt="동방명주">
             <p>상하이에 위치한 동방명주는 상하이의 대표적인 랜드마크로, 아름다운 야경과 전망대에서 바라보는 도심 전경이 유명합니다.</p>
         </div>
         <div class="tourist-info">
             <h3>시안 병마용</h3>
-            <img src="assets/China4.jpg" alt="병마용">
+            <img src="assets/NationInfo/China/C8.png" alt="병마용">
             <p>시안에 위치한 병마용은 진시황의 무덤에서 발견된 수천 개의 병사와 말 모형으로, 고대 중국의 역사를 엿볼 수 있는 중요한 유적지입니다.</p>
         </div>
         <div class="tourist-info">
             <h3>구채구</h3>
-            <img src="assets/China5.jpg" alt="구채구">
+            <img src="assets/NationInfo/China/C9.jpg" alt="구채구">
             <p>구채구는 중국 사천성에 위치한 자연 보호구역으로, 아름다운 호수와 폭포, 숲이 어우러진 천혜의 자연 경관을 자랑합니다.</p>
         </div>
         <div class="tourist-info">
             <h3>황산</h3>
-            <img src="assets/China6.jpg" alt="황산">
+            <img src="assets/NationInfo/China/C10.jpg" alt="황산">
             <p>황산은 중국 안후이성에 위치한 명산으로, 기암괴석과 운해, 고대 소나무로 유명합니다. 중국 전통 회화의 소재로 많이 사용되었습니다.</p>
         </div>
     </div>

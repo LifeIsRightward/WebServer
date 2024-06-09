@@ -167,7 +167,7 @@
                 </li>          
                 <li>
                 	<h3>현대 대중문화</h3>
-                    <img src="assets/NationInfo/Korea/Kpop.png" alt="문화적 특성 3">
+                    <img src="assets/NationInfo/Korea/K10.jpg" alt="문화적 특성 3">
                     <span>
                     	&nbsp K-pop(영어: Korean Popular Music, 케이팝)은 대한민국에서 대중적 인기를 얻는 유행 음악을 말한다. 
 						간단히 가요(歌謠)라고 부르기도 하며, 영미권의 대중음악을 팝(pop)이라고 부르고, 영미권 이외의 국가의 대중가요도 국가 이니셜을 붙여 나타내는 데서 K-POP이라고 쓴다. 

@@ -14,7 +14,7 @@
     .header {
         width: 100%;
         height: 600px;
-        background-image: url('assets/Taiwan.png');
+        background-image: url('assets/NationInfo/Taiwan/T0.png');
         background-size: cover;
         background-position: center;
     }
@@ -90,7 +90,7 @@
                 </li>
                 <li>
                     <h3>전통 문화</h3>
-                    <img src="assets/TaiwanCulture.png" alt="대만 전통 문화">
+                    <img src="assets/NationInfo/Taiwan/T1.png" alt="대만 전통 문화">
                     <span>
                     &nbsp 대만의 전통 문화는 중국의 영향을 많이 받았으며, 민속 예술, 전통 축제, 의식 등 다양한 면에서 중국의 전통을 유지하고 있습니다. 대만의 전통 명절로는 춘절, 중추절, 단오절 등이 있으며, 이 기간 동안 다양한 전통 행사가 열립니다.<br><br>
                     
@@ -99,7 +99,7 @@
                 </li>
                 <li>
                     <h3>식 문화</h3>
-                    <img src="assets/TaiwanFood.png" alt="대만 음식 문화">
+                    <img src="assets/NationInfo/Taiwan/T2.png" alt="대만 음식 문화">
                     <span>
                     &nbsp 대만의 음식 문화는 매우 다양하며, 신선한 재료와 독특한 조리법이 특징입니다. 대표적인 음식으로는 소룡포, 누가차, 타이완 소고기 국수, 펑리수가 있습니다.<br><br>
                     
@@ -108,7 +108,7 @@
                 </li>
                 <li>
                     <h3>건축</h3>
-                    <img src="assets/TaiwanArchitecture.png" alt="대만 건축">
+                    <img src="assets/NationInfo/Taiwan/T3.jpg" alt="대만 건축">
                     <span>
                     &nbsp 대만의 건축은 전통적인 중국식 건축물과 현대적인 건축물이 조화를 이루고 있습니다. 대표적인 건축물로는 타이페이 101, 타이베이의 용산사, 중정기념당 등이 있습니다.<br><br>
                     
@@ -117,7 +117,7 @@
                 </li>
                 <li>
                     <h3>현대 대중문화</h3>
-                    <img src="assets/TaiwanPopCulture.png" alt="대만 대중 문화">
+                    <img src="assets/NationInfo/Taiwan/T4.jpg" alt="대만 대중 문화">
                     <span>
                     &nbsp 대만의 현대 대중문화는 음악, 영화, 드라마 등 다양한 분야에서 큰 인기를 끌고 있습니다. 대만의 음악은 중국어권을 넘어 전 세계에서 사랑받고 있으며, 대만 영화와 드라마도 많은 팬층을 보유하고 있습니다.<br><br>
                     
@@ -130,32 +130,32 @@
         <h2>관광지</h2>
         <div class="tourist-info">
             <h3>타이페이 101</h3>
-            <img src="assets/Taiwan1.jpg" alt="타이페이 101">
+            <img src="assets/NationInfo/Taiwan/T5.png" alt="타이페이 101">
             <p>타이페이 101은 대만의 대표적인 랜드마크로, 고층 빌딩의 전망대에서 타이페이 시내를 한눈에 볼 수 있습니다.</p>
         </div>
         <div class="tourist-info">
             <h3>일월담</h3>
-            <img src="assets/Taiwan2.jpg" alt="일월담">
+            <img src="assets/NationInfo/Taiwan/T6.png" alt="일월담">
             <p>일월담은 대만 중부에 위치한 아름다운 호수로, 자연 경관과 호수 주변의 다양한 액티비티를 즐길 수 있습니다.</p>
         </div>
         <div class="tourist-info">
             <h3>타이난의 고궁박물원</h3>
-            <img src="assets/Taiwan3.jpg" alt="고궁박물원">
+            <img src="assets/NationInfo/Taiwan/T7.png" alt="고궁박물원">
             <p>타이난의 고궁박물원은 대만의 역사와 문화를 한눈에 볼 수 있는 중요한 문화유산입니다.</p>
         </div>
         <div class="tourist-info">
             <h3>지우펀</h3>
-            <img src="assets/Taiwan4.jpg" alt="지우펀">
+            <img src="assets/NationInfo/Taiwan/T8.png" alt="지우펀">
             <p>지우펀은 대만 북부에 위치한 작은 마을로, 옛날 채광 산업의 중심지였으며, 현재는 독특한 거리 풍경과 맛있는 먹거리로 유명한 관광지입니다.</p>
         </div>
         <div class="tourist-info">
             <h3>타로코 협곡</h3>
-            <img src="assets/Taiwan5.jpg" alt="타로코 협곡">
+            <img src="assets/NationInfo/Taiwan/T9.jpg" alt="타로코 협곡">
             <p>타로코 협곡은 대만 동부에 위치한 대자연의 경이로움을 느낄 수 있는 장소로, 웅장한 절경을 감상할 수 있습니다.</p>
         </div>
         <div class="tourist-info">
             <h3>중정기념당</h3>
-            <img src="assets/Taiwan6.jpg" alt="중정기념당">
+            <img src="assets/NationInfo/Taiwan/T10.png" alt="중정기념당">
             <p>중정기념당은 타이베이에 위치한 역사적인 건축물로, 대만의 정치적 역사를 이해할 수 있는 중요한 장소입니다.</p>
         </div>
     </div>
