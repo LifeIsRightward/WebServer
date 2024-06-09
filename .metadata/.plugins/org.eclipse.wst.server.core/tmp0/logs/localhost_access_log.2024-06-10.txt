@@ -1970,3 +1970,12 @@
 0:0:0:0:0:0:0:1 - - [10/Jun/2024:04:59:53 +0900] "GET /JSPBook/Project/View/tripcommunity.jsp?id=admin HTTP/1.1" 200 4622
 0:0:0:0:0:0:0:1 - - [10/Jun/2024:04:59:56 +0900] "GET /JSPBook/Project/View/profile.jsp?id=admin HTTP/1.1" 200 2101
 0:0:0:0:0:0:0:1 - - [10/Jun/2024:04:59:57 +0900] "GET /JSPBook/Project/View/tripcommunity.jsp?id=admin HTTP/1.1" 200 4622
+127.0.0.1 - - [10/Jun/2024:06:03:09 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [10/Jun/2024:06:03:10 +0900] "GET /JSPBook/Project/View/login.jsp HTTP/1.1" 200 865
+0:0:0:0:0:0:0:1 - - [10/Jun/2024:06:03:13 +0900] "POST /JSPBook/Project/Controller/loginprocess.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/Jun/2024:06:03:13 +0900] "GET /JSPBook/Project/View/index.jsp?id=admin HTTP/1.1" 200 2243
+0:0:0:0:0:0:0:1 - - [10/Jun/2024:06:03:13 +0900] "GET /JSPBook/Project/js/index.js HTTP/1.1" 200 509
+0:0:0:0:0:0:0:1 - - [10/Jun/2024:06:03:13 +0900] "GET /JSPBook/Project/css/index.css HTTP/1.1" 200 4023
+0:0:0:0:0:0:0:1 - - [10/Jun/2024:06:03:15 +0900] "GET /JSPBook/Project/View/Chatbot.jsp?id=admin HTTP/1.1" 200 4621
+0:0:0:0:0:0:0:1 - - [10/Jun/2024:06:03:15 +0900] "GET /JSPBook/Project/assets/chatbotbackground4.jpg HTTP/1.1" 200 3099
+0:0:0:0:0:0:0:1 - - [10/Jun/2024:06:03:15 +0900] "GET /JSPBook/Project/js/Chatbot.js HTTP/1.1" 200 3564
