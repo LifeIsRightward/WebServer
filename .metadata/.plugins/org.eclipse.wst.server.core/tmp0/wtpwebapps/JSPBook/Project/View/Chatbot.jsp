@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>Trip ChatBot</title>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <style>
     body {

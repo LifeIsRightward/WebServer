@@ -10,7 +10,7 @@
 <body>
     <div class="signup-container">
         <h1>Sign Up</h1>
-        <form method="post" action="signupprocess.jsp">
+        <form method="post" action="../Controller/signupprocess.jsp">
             <label for="id">ID</label>
             <input type="text" id="id" name="id" required>
 

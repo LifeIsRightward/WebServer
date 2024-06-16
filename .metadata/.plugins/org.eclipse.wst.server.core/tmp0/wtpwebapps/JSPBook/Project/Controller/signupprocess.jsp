@@ -32,7 +32,7 @@
 			out.println("레코드 삽입이 성공했습니다.");
 			out.println("<script type='text/javascript'>");
 		    out.println("alert('회원가입 성공!');");
-		    out.println("location.href='login.jsp';");
+		    out.println("location.href='../View/login.jsp';");
 		    out.println("</script>");
 			//response.sendRedirect("login.jsp");
 		}catch(SQLException ex){

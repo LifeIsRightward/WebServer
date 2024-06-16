@@ -1,0 +1,92 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="UTF-8"%>
+<%@ page import="java.sql.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/index.css" type="text/css">
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+</head>
+<body>
+	<%@ include file="dbconn.jsp" %>
+	<%@ page import = "javabean.*" %>
+    
+    <%
+    	request.setCharacterEncoding("utf-8");
+    	String uid = request.getParameter("id");
+    %>
+    
+    <header>
+        <h1><a href="index.jsp?id=<%=uid%>">CT: Culture&Trip</a></h1>
+        <nav>
+            <ul>
+            	<li><a href="Chatbot.jsp?id=<%=uid%>">여행관련 챗봇</a></li>
+                <li><a href="NationalInfo/nationalinfo.jsp?id=<%=uid%>">나라 소개</a></li>
+                <li><a href="https://stti.tripbuilder.co.kr/">여행 성향 분석</a></li>
+                <li><a href="tripcommunity.jsp?id=<%=uid%>">여행 후기 게시판</a></li>
+                <li><a href="profile.jsp?id=<%=uid%>">프로필</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="section" id="welcome-text">
+		<h1>어서오세요! <br>당신이 방문할 국가의 정보와<br>후기를 확인해보세요!</h1>
+	</div>
+    
+	
+		<div class="section odd" id="section1">
+         	<div class="image-holder">
+      			<img src="../assets/trip1.jpg" alt="[introduce]">
+    		</div>
+    		<div class="text-holder">
+      			<h2>동아시아 국가들의 소재별 문화 정보</h2>
+      			<p>안녕하세요! 저희 웹사이트에 오신 것을 환영합니다.<br><br>
+      			동아시아는 오랜 역사와 독특한 문화를 지닌 지역으로, 각 나라마다 고유한 전통과 예술, 생활 방식을 자랑합니다.<br><br>
+      			이곳은 한국, 중국, 일본 등 동아시아 국가들의 다양한 문화 정보를 소재별로 정리하여 제공하는 공간입니다.<br><br>
+				저희 웹사이트에서는 각 나라의 음식, 의복, 전통 예술, 건축 양식, 축제 등 다양한 주제에 대해 심층적인 정보를 제공합니다.<br><br>
+				각 나라의 문화적 배경과 역사적 맥락을 이해함으로써 동아시아의 다채로운 문화를 더 깊이 있게 체험할 수 있을 것입니다.<br><br>
+				이곳에서 제공하는 자료들은 신뢰할 수 있는 출처를 바탕으로 하여 정확하고 풍부한 내용을 담고 있습니다. 동아시아 문화에 관심이 있는 분들, 여행을 계획 중인 분들, 혹은 단순히 새로운 것을 배우고자 하는 분들 모두에게 유익한 정보를 제공하고자 합니다.<br><br>
+				함께 동아시아의 아름다움과 다양성을 탐험해 보세요.<br><br>
+				감사합니다.
+      			 </p>
+    		</div>
+    	</div>
+    <div class="section even" id="section2">
+        <div class="image-holder">
+      		<img src="../assets/trip2.jpg" alt="[section2]">
+    	</div>
+    	<div class="text-holder">
+      		<h2>사이트 소개</h2>
+      		<p>[국가의 소재별 문화와 특징을 확인해보세요!]</p>
+    	</div>
+    </div>
+    <div class="section odd" id="section3">
+        <div class="image-holder">
+      		<img src="../assets/trip3.jpg" alt="[section3]">
+    	</div>
+    	<div class="text-holder">
+      		<h2>사이트 소개</h2>
+      		<p>[자신의 여행 성향을 판단해보세요!]</p>
+    	</div>
+    </div>
+
+	
+	
+   
+    <footer>
+    	<div id="logo">
+    		<img src="../assets/Logo.png" alt="LOGO" id="Logoimg">
+    	</div>
+  		<div>
+  			CEO. 김대현 <br>
+  			Addr. 서울특별시 금천구 가산1로 280-3 우림하이엔드타워 6차 14F 
+  			고객상담실 Fax/Tel: 02 - 223 -2912~5 <br>
+  			COPYRIGHT 2024. C&T. ALL RIGHT RESERVED.
+         </div>
+    </footer>
+</body>
+</html>
+
+

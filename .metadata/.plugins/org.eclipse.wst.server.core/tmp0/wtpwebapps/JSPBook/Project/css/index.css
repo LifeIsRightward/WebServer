@@ -78,7 +78,7 @@ nav a:hover {
 #welcome-text {
     position: relative; /* 상대 위치 설정 */
     margin-top: 15%; /* 상단 여백 추가 */
-    margin-left: 5%;
+    margin-left: 2%;
     /*width: 60%;*/
     height: 85%;
     z-index: 10; /* 다른 요소 위에 표시 */
@@ -88,21 +88,21 @@ nav a:hover {
     font-size: 4em; /* 텍스트 크기 */
     font-weight: bold; /* 글씨체 강조 */
     color: black; /* 텍스트 색상 */
-    opacity: 1;
+    `: 1;
     margin: 0; /* 여백 제거 */
 }
 
 
 #section1{
-	background-color:rgba(128,128,128,0.6);
+	background-color:rgba(128,128,128,0.8);
 }
 
 #section2 {
-    background-color:rgba(0,0,0,0.6);
+    background-color:rgba(0,0,0,0.8);
 }
 
 #section3 {
-    background-color:rgba(128,128,128,0.6);
+    background-color:rgba(128,128,128,0.8);
 }
 
 .wrapper {
@@ -135,7 +135,8 @@ nav a:hover {
 .even .text-holder > p{
 	font-weight: bold;
 	font-size: 1.5em;
-	color: white;
+	/*color: white;*/
+	color: rgba(255, 255, 255, 0.9);
 }
 
 .odd > .image-holder{
@@ -201,4 +202,9 @@ footer > div:first-child{
 footer > div:last-child{
     flex: 9;
     color: #fff;
+}
+
+#Logoimg {
+	width: 20%;
+	height: auto;
 }
