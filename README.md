@@ -3,7 +3,8 @@
 #### 추가적으로 javabeans 파일은 JSPBook -> src/main -> java/javabean 파일에 존재합니다!
 
 ## 시스템 구성도
-![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/e4cb401b-e3e2-4248-b8e1-e222f438e71d)
+![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/499696ff-0ebb-4123-a9a8-631d69e267e1)
+
 
 
 ## 파일 구성도
