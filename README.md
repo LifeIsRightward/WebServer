@@ -3,11 +3,16 @@
 #### 추가적으로 javabeans 파일은 JSPBook -> src/main -> java/javabean 파일에 존재합니다!
 
 ## 시스템 구성도
-
-![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/4c6c05ea-c52c-4322-8936-1702f6796214)
+![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/e4cb401b-e3e2-4248-b8e1-e222f438e71d)
 
 
 ## 파일 구성도
-![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/c80e399b-8586-4542-bedb-8435c0c9c82d)
-<br>
-![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/5020e768-5695-4820-a2f2-bf44371f306b)
+![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/f501fbc7-e4e3-42b9-9791-20bed31bdd3f)
+
+
+
+## MVC 구조도
+![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/e5807d92-8422-4535-aac1-10a3b6bde9f6)
+![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/efb979ac-6d90-4599-bd9c-f487b442e156)
+
+
