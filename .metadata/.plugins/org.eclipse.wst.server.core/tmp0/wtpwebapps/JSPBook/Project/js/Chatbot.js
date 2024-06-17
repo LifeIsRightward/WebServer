@@ -8,7 +8,7 @@ const userInput = document.querySelector('#user-input input');
 const sendButton = document.querySelector('#user-input button');
 
 // 발급받은 OpenAI API 키를 변수로 저장(주 계정)
-const apiKey = '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';
+const apiKey = 'sk-proj-Jqxf9kRHs1TAusLjZHUaT3BlbkFJgy2ptzOiuK0lfbx0xLxR';
 // 발급받은 OpenAI API 키를 변수로 저장(부 계정)
 //const apiKey = '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';
 

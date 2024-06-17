@@ -6,12 +6,14 @@
 <head>
 <meta charset="UTF-8">
 <title>Board</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
     body {
-        font-family: Arial, sans-serif;
+        font-family: "Noto Sans KR", Arial, sans-serif;
         background-color: #f4f4f4;
         margin: 0;
         padding: 0;
+        font: "Noto Sans KR";
     }
     .container {
         width: 80%;

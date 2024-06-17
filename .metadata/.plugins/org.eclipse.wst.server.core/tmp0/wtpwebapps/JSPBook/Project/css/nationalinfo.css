@@ -1,7 +1,7 @@
 @charset "EUC-KR";
 
     body {
-        font-family: Arial, sans-serif;
+        font-family: "Noto Sans KR", Arial, sans-serif;
         background-color: #f4f4f9;
         margin: 0;
         padding: 20px;
@@ -106,6 +106,7 @@
     }
     .overlay p {
         font-size: 1.2em;
+        font: "Noto Sans KR";
     }
     .overlay a {
         display: inline-block;

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/profile.css" type="text/css">
 <title>Profile</title>
 </head>

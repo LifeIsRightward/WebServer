@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>C&T: Trip And Culture</title>
 <link rel="stylesheet" href="../css/index.css" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script type="text/javascript" src="../js/index.js"></script>
 </head>

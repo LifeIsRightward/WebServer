@@ -5,6 +5,7 @@
 <head>
 <meta charset="EUC-KR">
 <title>Trip ChatBot</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <style>
     body {
@@ -14,10 +15,11 @@
         height: 100vh;
         margin: 0;
         background-color: #f4f4f9;
-        font-family: Arial, sans-serif;
+        font-family: "Noto Sans KR", Arial, sans-serif;
         background-image: url('../assets/chatbotbackground4.jpg');
         background-size: cover;
         background-position: center;
+        font: "Noto Sans KR";
     }
     .message {
         border-top: 1px solid #ccc;

@@ -5,9 +5,10 @@
 <head>
 <meta charset="EUC-KR">
 <title>중국 여행 정보</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
     body {
-        font-family: Arial, sans-serif;
+        font-family: "Noto Sans KR", Arial, sans-serif;
         margin: 0;
         padding: 0;
     }

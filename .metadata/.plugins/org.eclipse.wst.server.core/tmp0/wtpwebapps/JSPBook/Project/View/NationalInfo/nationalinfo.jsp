@@ -5,6 +5,7 @@
 <head>
 <meta charset="EUC-KR">
 <title>동아시아 국가 여행 정보</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../css/nationalinfo.css" type="text/css">
 
 </head>
