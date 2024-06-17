@@ -8,12 +8,15 @@
 
 
 ## 파일 구성도
-![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/f501fbc7-e4e3-42b9-9791-20bed31bdd3f)
+![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/96274a89-e4e4-4927-9eed-a4fb82707d66)
+
 
 
 
 ## MVC 구조도
-![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/e5807d92-8422-4535-aac1-10a3b6bde9f6)
-![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/efb979ac-6d90-4599-bd9c-f487b442e156)
+![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/3459f5a3-8ab8-4512-addd-aa6d80ab84b3)
+<br>
+![image](https://github.com/LifeIsRightward/WebServer/assets/90908005/f2f581ac-c837-431a-9ec7-27deb7da963c)
+
 
 
